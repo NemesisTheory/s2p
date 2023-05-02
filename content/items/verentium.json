@@ -1,0 +1,13 @@
+{
+  "name": "verentium",
+  "localizedName": "Verentium",
+  "description": "A material designed to aid advanced machinery and components using it's high conductivity and charge.",
+  "details": "Verentium's particularly weak structure is a result, or, for a lack of a better word, a byproduct of it's high charge. The material contains so much charge to the point of harming it's chemical component and therefore making the material weaker in terms of durability.
+  "color": "#f8ad42",
+  "hardness": 5000000,
+  "radioactivity": 5000000,
+  "explosiveness": 5000000,
+  "conductivity": 5000000,
+  "charge": 5000000,
+  "cost": 1.2
+}
