@@ -5,14 +5,14 @@
     "type": "NoiseMesh",
     "planet": "concord",
     "seed": 41,
-    "divisions": 12,
+    "divisions": 4,
     "color1": "#82eefd",
     "color2": "#1e90ff",
     "radius": 0.8,
-    "octaves": 2.2,
+    "octaves": 3,
     "persistence": 0.8,
-    "scale": 4,
-    "mag": 1.4
+    "scale": 2,
+    "mag": 1.5
   },
   "cloudMesh": {
     "type": "HexSkyMesh",
