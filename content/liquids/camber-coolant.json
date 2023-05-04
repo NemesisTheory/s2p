@@ -1,6 +1,8 @@
 {
   "name": "camber-coolant",
   "localizedName": "Camber Coolant",
+  "description": "A coolant that is more efficient than Cryofluid.",
+  "details": "Designed to cool down reactors, this coolant wasn't actually made to cool down turrets.",
   "temperature": 0.045,
   "explosiveness": 0,
   "flammability": 0,
