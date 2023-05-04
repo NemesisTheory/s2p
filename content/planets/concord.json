@@ -47,7 +47,7 @@
     "berylChance": 0,
     "ferricChance": 0
   },
-  "sectorSize": 1,
+  "sectorSize": 3,
   "orbitSpacing": 12,
   "radius": 1,
   "minZoom": 0.5,
