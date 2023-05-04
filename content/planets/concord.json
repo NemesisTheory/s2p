@@ -5,7 +5,7 @@
     "type": "NoiseMesh",
     "planet": "concord",
     "seed": 5,
-    "divisions": 5,
+    "divisions": 6,
     "color1": "#82eefd",
     "color2": "#1e90ff",
     "radius": 0.8,
@@ -18,14 +18,14 @@
     "type": "HexSkyMesh",
     "planet": "concord",
     "seed": 96,
-    "speed": 0.4,
-    "radius": 0.05,
+    "speed": 0.7,
+    "radius": 0.2,
     "divisions": 4,
     "color": "#e5f3fd",
     "octaves": 3,
     "persistence": 0.7,
     "scl": 1,
-    "thresh": 0.4
+    "thresh": 0.8
   },
   "generator": {
     "min": 1,
