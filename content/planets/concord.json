@@ -1,7 +1,7 @@
 {
   "name": "concord",
   "localizedName": "Concord",
-  "generator": "TantrosPlanetGenerator",
+  "generator": "AsteroidGenerator",
   "parent": "sun",
   "orbitRadius": 51,
   "orbitSpacing": 0,
