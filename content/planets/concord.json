@@ -5,13 +5,13 @@
     "type": "NoiseMesh",
     "planet": "concord",
     "seed": 41,
-    "divisions": 42,
+    "divisions": 9,
     "color1": "#82eefd",
     "color2": "#1e90ff",
     "radius": 0.6,
     "octaves": 2.1,
     "persistence": 0.8,
-    "scale": 0.9,
+    "scale": 1,
     "mag": 1.4
   },
   "cloudMesh": {
