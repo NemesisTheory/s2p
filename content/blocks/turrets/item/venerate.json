@@ -1,8 +1,8 @@
 {
-  "name": "reverence",
-  "localizedName": "Reverence",
+  "name": "venerate",
+  "localizedName": "Venerate",
   "description": "A medium-range multipurpose fully automatic turret designed to be an alternative to the Spectre.",
-  "details": "The Reverence is particularly vulnerable to most forms of attack, due to how it's structured and the particularly weak materials it is built from."
+  "details": "The Venerate is particularly vulnerable to most forms of attack, due to how it's structured and the particularly weak materials it is built from."
   "size": 4,
   "health": 780,
   "range": 208,
