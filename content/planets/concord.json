@@ -1,17 +1,17 @@
 {
   "name": "concord",
   "localizedName": "Concord",
-  "generator": "AsteroidGenerator"
-  "parent": "sun"
+  "generator": "AsteroidGenerator",
+  "parent": "sun",
   "orbitRadius": 7,
   "orbitSpacing": 0,
   "updateLighting": false,
   "atmosphereRadIn": 0,
   "atmosphereRadOut": 0,
-  "atmosphereColor": "#add8e6"
+  "atmosphereColor": "#add8e6",
   "drawOrbit": false,
   "accessible": true,
-  "alwaysUnlocked": true
+  "alwaysUnlocked": true,
   "mesh": {
     "type": "NoiseMesh",
     "divisions": 5,
@@ -24,7 +24,8 @@
     "scale": 1.3,
     "mag": 4,
     "coct": 4,
-    "cper": 1.7
+    "cper": 1.7,
     "cscl": 0.4,
-    "cthresh": 0.02,
+    "cthresh": 0.02
+  }
 }
