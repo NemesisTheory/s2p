@@ -1,7 +1,7 @@
 {
   "name": "concord",
   "localizedName": "Concord",
-  "generator": "SerpuloPlanetGenerator",
+  "generator": "TantrosPlanetGenerator",
   "parent": "sun",
   "orbitRadius": 51,
   "orbitSpacing": 0,
