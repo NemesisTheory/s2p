@@ -1,0 +1,10 @@
+{
+  "type": "status",
+  "name": "destabilized",
+  "localizedName": "Destabilized",
+  "description": "Unit's mobility and sensory systems are destabilized resulting in extreme reduction in speed along with disarming their weapons.",
+  "speedMultiplier": 0.21,
+  "buildSpeedMultiplier": 0.24,
+  "dragMultiplier": 0.37,
+  "disarm": true
+}
