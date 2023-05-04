@@ -1,12 +1,12 @@
 {
   "name": "venerate",
   "localizedName": "Venerate",
-  "description": "A medium-range slow-firing fully automatic turret designed to be an alternative to the Spectre.",
+  "description": "A medium-range moderate-firerate fully automatic turret designed to be an alternative to the Spectre.",
   "details": "The Venerate is particularly vulnerable to most forms of attack, due to how it's structured and the particularly weak materials it is built from.",
   "size": 4,
   "health": 780,
   "range": 224,
-  "reload": 25,
+  "reload": 22,
   "shoot": {
   "type": "ShootBarrel",
   "shots": 3,
@@ -50,7 +50,7 @@
     "titanium": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 42,
+      "damage": 62,
       "ammoMultiplier": 3,
       "splashDamage": 11,
       "splashDamageRadius": 3,
@@ -60,7 +60,7 @@
       "frontColor": "#cce0ff",
       "backColor": "#afbde4",
       "shootEffect": "shootBig",
-      "lifetime": 16,
+      "lifetime": 18,
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
       "pierce": true,
@@ -68,6 +68,29 @@
       "fragOnHit": true,
       "fragBullets": 3,
       "knockback": 0.3,
+      "hittable": true
+    },
+    "draetheus-alloy": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 85,
+      "ammoMultiplier": 2,
+      "splashDamage": 9,
+      "splashDamageRadius": 14,
+      "hitSize": 4,
+      "width": 12,
+      "height": 17,
+      "frontColor": "#4D4D4D",
+      "backColor": "#333333",
+      "shootEffect": "shootBig",
+      "lifetime": 18,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "pierce": true,
+      "pierceCap": 5,
+      "fragOnHit": true,
+      "fragBullets": 5,
+      "knockback": 0.9,
       "hittable": true
     }
   }
