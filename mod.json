@@ -1,0 +1,9 @@
+{
+  "name": "s2p",
+  "displayName": "s2p",
+  "author": "NemesisTheory",
+  "description": "A work-in-progress JSON mod that I am actually trying to put effort in.",
+  "version": "1.0",
+  "minGameVersion": "140",
+  "hidden": "false"
+}
