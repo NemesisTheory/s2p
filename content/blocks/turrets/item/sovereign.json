@@ -27,7 +27,7 @@
     "draetheus-alloy/350"
   ],
   "consumes": {
-    "power": 11,
+    "power": 18,
   },
   "ammoTypes": {
     "draetheus-alloy": {
@@ -42,8 +42,8 @@
       "pierceCap": 16,
       "knockback": 0.5,
       "hittable": true,
-      "lifetime": 55,
-      "damage": 955,
+      "lifetime": 15,
+      "damage": 965,
       "ammoMultiplier": 1,
       "status": "melting",
       "statusDuration": 360
