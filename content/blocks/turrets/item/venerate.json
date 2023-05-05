@@ -17,7 +17,7 @@
     0, 6, 0
   ]
 },
-  "innacuracy": 6,
+  "inaccuracy": 6,
   "shootCone": 35,
   "recoil": 4.2,
   "shake": 2.5,
