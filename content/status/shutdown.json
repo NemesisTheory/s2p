@@ -6,5 +6,5 @@
   "speedMultiplier": 0,
   "buildSpeedMultiplier": 0,
   "dragMultiplier": 0,
-  "reloadMultiplier": 0
+  "disarm": true
 }
