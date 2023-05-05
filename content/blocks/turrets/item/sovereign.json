@@ -15,7 +15,6 @@
   "maxAmmo": 45,
   "recoilTime": -15,
   "ammoUseEffect": "casing3",
-  "category": "turret",
   "rotateSpeed": 12,
   "coolantMultiplier": 1.8,
   "displayAmmoMultiplier": true,
@@ -30,7 +29,7 @@
   "consumes": {
     "power": 11,
     "coolant": {
-      "amount": 1.2,
+      "amount": 1.2
   },
   "ammoTypes": {
     "draetheus-alloy": {
