@@ -1,0 +1,11 @@
+{
+  "type": "status",
+  "name": "meltdown-status",
+  "localizedName": "Meltdown",
+  "description": "The unit's core and primary systems are immensely overheating. Similar to destabilization but deals damage, for most cases, the unit cools down quickly.",
+  "speedMultiplier": 0.35,
+  "buildSpeedMultiplier": 0.45,
+  "dragMultiplier": 0.4,
+  "reloadMultiplier": 0.19,
+  "damage": 9
+}
