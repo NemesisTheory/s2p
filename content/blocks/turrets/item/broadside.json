@@ -2,7 +2,7 @@
   "name": "broadside",
   "localizedName": "Broadside",
   "description": "A turret with 8 fast-firing barrels, ammunition may be difficult to maintain due to it's extremely fast firerate.",
-  "details": "Cover them with lead.",
+  "details": "Eat lead.",
   "size": 4,
   "health": 920,
   "range": 194,
@@ -118,7 +118,7 @@
       "hitEffect": "colorSparkBig",
       "status": "destabilized",
       "statusDuration": 105,
-      "knockback": 0.15,
+      "knockback": 0,
       "hittable": true
     }
   }
