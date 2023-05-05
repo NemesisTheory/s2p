@@ -42,7 +42,7 @@
       "pierceCap": 16,
       "knockback": 0.5,
       "hittable": true,
-      "lifetime": 15,
+      "lifetime": 16,
       "damage": 965,
       "ammoMultiplier": 1,
       "status": "melting",
