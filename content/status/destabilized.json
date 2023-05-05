@@ -6,5 +6,5 @@
   "speedMultiplier": 0.21,
   "buildSpeedMultiplier": 0.24,
   "dragMultiplier": 0.37,
-  "disarm": true
+  "reloadMultiplier": 0.35
 }
