@@ -17,7 +17,6 @@
   "recoilTime": -15,
   "ammoUseEffect": "casing3",
   "rotateSpeed": 12,
-  "coolantMultiplier": 0.2,
   "displayAmmoMultiplier": true,
   "requirements": [
     "copper/1200",
@@ -29,9 +28,6 @@
   ],
   "consumes": {
     "power": 11,
-    "coolant": {
-      "amount": 1.2
-    }
   },
   "ammoTypes": {
     "draetheus-alloy": {
@@ -46,7 +42,7 @@
       "pierceCap": 16,
       "knockback": 0.5,
       "hittable": true,
-      "lifetime": 100,
+      "lifetime": 55,
       "damage": 955,
       "ammoMultiplier": 1,
       "status": "melting",
