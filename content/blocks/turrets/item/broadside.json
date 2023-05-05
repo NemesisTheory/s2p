@@ -1,26 +1,36 @@
 {
   "name": "broadside",
   "localizedName": "Broadside",
-  "description": "A turret with 8 fast-firing barrels, ammunition may be difficult to maintain due to it's extremely fast firerate.",
+  "description": "A turret with 8 fast-firing barrels, ammunition may be difficult to maintain due to its extremely fast fire rate.",
   "details": "Cover them with lead.",
   "size": 4,
   "health": 920,
   "range": 194,
-  "reload": 11,
+  "reload": 2,
   "shoot": {
-  "type": "ShootBarrel",
-  "shots": 8,
-  "barrels": 8,
-  "barrels": [
-    8, 0, 0,
-    -8, 0, 0,
-    4, 6, 0,
-    -4, 6, 0,
-    8, 6, 0,
-    -8, 6, 0
-    ]
-},
-  "innacuracy": 35,
+    "type": "ShootBarrel",
+    "shots": 8,
+    "shoot": {
+      "type": "ShootMulti",
+      "source": "shootPattern",
+      "dest": [
+        {
+          "type": "ShootAlternate",
+          "shots": 8,
+          "barrels": 8,
+          "barrels": [
+            8, 0, 0,
+            -8, 0, 0,
+            4, 6, 0,
+            -4, 6, 0,
+            8, 6, 0,
+            -8, 6, 0
+          ],
+          "spread": 36
+        }
+      ]
+  },
+  "inaccuracy": 35,
   "shootCone": 56,
   "recoil": 6.2,
   "shake": 2.6,
@@ -53,9 +63,10 @@
     "lead": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 0.6,
+      "damage": 6,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
+      "intervalBullets": 8,
       "hitSize": 2,
       "width": 8,
       "height": 12,
@@ -69,9 +80,10 @@
     "graphite": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 3.2,
+      "damage": 11,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
+      "intervalBullets": 8,
       "hitSize": 2,
       "width": 8,
       "height": 12,
@@ -86,14 +98,14 @@
     "draetheus-alloy": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 8,
+      "damage": 24,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
+      "intervalBullets": 8,
       "hitSize": 2,
       "width": 8,
       "height": 12,
       "shootEffect": "shootBig",
-      "reloadMultiplier": 0.96,
       "lifetime": 19.5,
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
