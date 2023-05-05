@@ -1,0 +1,102 @@
+{
+  "name": "broadside",
+  "localizedName": "Broadside",
+  "description": "A turret with 8 fast-firing barrels, ammunition may be difficult to maintain due to it's extremely fast firerate.",
+  "details": "Cover them with lead.",
+  "size": 4,
+  "health": 920,
+  "range": 194,
+  "reload": 11,
+  "shoot": {
+  "type": "ShootBarrel",
+  "shots": 8,
+  "barrels": 8,
+  "barrels": [
+      6, 2, 0,
+      6, -2, 0,
+      0, 4, 0,
+      0, 0, 0,
+      -6, -2, 0,
+      -6, 2, 0,
+      0, -4, 0
+    ]
+},
+  "innacuracy": 35,
+  "shootCone": 56,
+  "recoil": 6.2,
+  "shake": 2.6,
+  "recoilTime": -12,
+  "maxAmmo": 85,
+  "ammoUseEffect": "casing2",
+  "ammoEjectBack": 8,
+  "coolantMultiplier": 0.3,
+  "displayAmmoMultiplier": true,
+  "rotateSpeed": 25,
+  "shootSound": "shootBig",
+  "category": "turret",
+  "hasPower": false,
+  "type": "ItemTurret",
+  "requirements": [
+    "copper/920",
+    "graphite/455",
+    "titanium/450",
+    "silicon/650",
+    "metaglass/950",
+    "plastanium/20",
+    "verentium/105"
+  ],
+  "consumes": {
+    "coolant": {
+      "amount": 0.4
+    }
+  },
+  "ammoTypes": {
+    "lead": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 0.6,
+      "ammoMultiplier": 1,
+      "hitSize": 2,
+      "width": 8,
+      "height": 12,
+      "shootEffect": "shootBig",
+      "lifetime": 19.5,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "knockback": 0.15,
+      "hittable": true
+    },
+    "graphite": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 3.2,
+      "ammoMultiplier": 1,
+      "hitSize": 2,
+      "width": 8,
+      "height": 12,
+      "shootEffect": "shootBig",
+      "reloadMultiplier": 0.4,
+      "lifetime": 19.5,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "knockback": 0.28,
+      "hittable": true
+    },
+    "draetheus-alloy": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 8,
+      "ammoMultiplier": 1,
+      "hitSize": 2,
+      "width": 8,
+      "height": 12,
+      "shootEffect": "shootBig",
+      "reloadMultiplier": 0.96,
+      "lifetime": 19.5,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "knockback": 0.34,
+      "hittable": true
+    }
+  }
+}
