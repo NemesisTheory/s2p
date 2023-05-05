@@ -8,21 +8,21 @@
     "divisions": 6,
     "color1": "#82eefd",
     "color2": "#1e90ff",
-    "radius": 0.7,
-    "octaves": 2,
+    "radius": 0.8,
+    "octaves": 2.5,
     "persistence": 0.8,
     "scale": 1,
-    "mag": 1.4
+    "mag": 1.5
   },
   "cloudMesh": {
     "type": "HexSkyMesh",
     "planet": "concord",
-    "seed": 5,
+    "seed": 96,
     "speed": 0.7,
     "radius": 0.2,
     "divisions": 4,
     "color": "#e5f3fd",
-    "octaves": 2,
+    "octaves": 3,
     "persistence": 0.7,
     "scl": 1,
     "thresh": 0.8
