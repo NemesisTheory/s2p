@@ -30,6 +30,7 @@
     "power": 11,
     "coolant": {
       "amount": 1.2
+    }
   },
   "ammoTypes": {
     "draetheus-alloy": {
