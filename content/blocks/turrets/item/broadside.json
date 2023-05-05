@@ -6,7 +6,7 @@
   "size": 4,
   "health": 920,
   "range": 194,
-  "reload": 2,
+  "reload": 2.4,
   "shoot": {
   "type": "ShootBarrel",
   "shots": 8,
@@ -117,7 +117,7 @@
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
       "status": "destabilized",
-      "statusDuration": 105,
+      "statusDuration": 28,
       "knockback": 0,
       "hittable": true
     }
