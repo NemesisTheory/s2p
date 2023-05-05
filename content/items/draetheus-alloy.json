@@ -3,7 +3,7 @@
   "localizedName": "Draetheus Alloy",
   "description": "An incredibly durable alloy that has high heat conductivity and is extremely resistant to corrosion - useful for many advanced tech, and ammo.",
   "details": "The reason why such a durable alloy isn't used in defensive structures such as walls or gates is due to it's low toughness. This alloy is particularly easy to fracture.",
-  "color": "e5e5e5",
+  "color": "#414141",
   "hardness": 2,
   "radioactivity": 0,
   "flammability": 0,
