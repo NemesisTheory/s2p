@@ -9,6 +9,7 @@
   "reload": 280,
   "shootSound": "railgun",
   "category": "turret",
+  "type": "ItemTurret",
   "hasPower": true,
   "recoil": 9,
   "shake": 4.1,
