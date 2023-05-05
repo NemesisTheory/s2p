@@ -1,36 +1,25 @@
 {
   "name": "broadside",
   "localizedName": "Broadside",
-  "description": "A turret with 8 fast-firing barrels, ammunition may be difficult to maintain due to its extremely fast fire rate.",
+  "description": "A turret with 8 fast-firing barrels, ammunition may be difficult to maintain due to it's extremely fast firerate.",
   "details": "Cover them with lead.",
   "size": 4,
   "health": 920,
   "range": 194,
-  "reload": 1,
+  "reload": 2,
   "shoot": {
-    "type": "ShootBarrel",
-    "shots": 8,
-    "shoot": {
-      "type": "ShootMulti",
-      "source": "shootPattern",
-      "dest": [
-        {
-          "type": "ShootAlternate",
-          "shots": 8,
-          "barrels": 8,
-          "barrels": [
-            8, 0, 0,
-            -8, 0, 0,
-            4, 6, 0,
-            -4, 6, 0,
-            8, 6, 0,
-            -8, 6, 0
-          ],
-          "spread": 36
-        }
-      ]
-    }
-  },
+  "type": "ShootBarrel",
+  "shots": 8,
+  "barrels": 8,
+  "barrels": [
+    8, 0, 0,
+    -8, 0, 0,
+    4, 6, 0,
+    -4, 6, 0,
+    8, 6, 0,
+    -8, 6, 0
+    ]
+},
   "inaccuracy": 4,
   "shootCone": 15,
   "recoil": 6.2,
