@@ -6,7 +6,7 @@
   "size": 4,
   "health": 920,
   "range": 194,
-  "reload": 2,
+  "reload": 1,
   "shoot": {
     "type": "ShootBarrel",
     "shots": 8,
@@ -31,8 +31,8 @@
       ]
     }
   },
-  "inaccuracy": 35,
-  "shootCone": 56,
+  "inaccuracy": 4,
+  "shootCone": 15,
   "recoil": 6.2,
   "shake": 2.6,
   "recoilTime": -12,
@@ -64,7 +64,7 @@
     "lead": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 6,
+      "damage": 9,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
       "intervalBullets": 8,
@@ -81,7 +81,7 @@
     "graphite": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 11,
+      "damage": 15,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
       "intervalBullets": 8,
@@ -89,7 +89,7 @@
       "width": 8,
       "height": 12,
       "shootEffect": "shootBig",
-      "reloadMultiplier": 0.4,
+      "reloadMultiplier": 0.8,
       "lifetime": 19.5,
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
@@ -99,7 +99,7 @@
     "draetheus-alloy": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 24,
+      "damage": 35,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
       "intervalBullets": 8,
@@ -111,6 +111,25 @@
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
       "knockback": 0.34,
+      "hittable": true
+    },
+    "verentium": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 14,
+      "ammoMultiplier": 2,
+      "bulletInterval": 5,
+      "intervalBullets": 8,
+      "hitSize": 2,
+      "width": 8,
+      "height": 12,
+      "shootEffect": "shootBig",
+      "lifetime": 19.5,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "status": "destabilized",
+      "statusDuration": 105,
+      "knockback": 0.15,
       "hittable": true
     }
   }
