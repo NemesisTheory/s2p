@@ -80,8 +80,6 @@
       "hitSize": 4,
       "width": 12,
       "height": 17,
-      "frontColor": "#4D4D4D",
-      "backColor": "#333333",
       "shootEffect": "shootBig",
       "lifetime": 18,
       "collidesAir": true,
