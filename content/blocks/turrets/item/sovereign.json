@@ -28,6 +28,8 @@
   ],
   "consumes": {
     "power": 18,
+    "coolant" {
+      "amount": 0.8,
   },
   "ammoTypes": {
     "draetheus-alloy": {
@@ -45,8 +47,8 @@
       "lifetime": 19,
       "damage": 965,
       "ammoMultiplier": 1,
-      "status": "melting",
-      "statusDuration": 360
+      "status": "meltdown-status",
+      "statusDuration": 195
     }
   }
 }
