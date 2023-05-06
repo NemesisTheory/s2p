@@ -2,7 +2,7 @@
   "name": "sovereign",
   "localizedName": "Sovereign",
   "description": "A long-range, extremely low firerate, piercing coilgun designed to be a successor to the Foreshadow.",
-  "details": "No such thing as overkill. It is highly recommended to use Sovereigns instead of Foreshadows on Concord, due to the high hostile presence on the planet.",
+  "details": "No such thing as overkill. It is highly recommended to use Sovereigns instead of Foreshadows on Concord due to the planet's high hostile presence.",
   "size": 4,
   "health": 1800,
   "range": 620,
@@ -29,7 +29,8 @@
   "consumes": {
     "power": 18,
     "coolant": {
-      "amount": 0.8,
+      "amount": 0.8
+    }
   },
   "ammoTypes": {
     "draetheus-alloy": {
