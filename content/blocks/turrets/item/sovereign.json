@@ -17,7 +17,6 @@
   "recoilTime": -15,
   "ammoUseEffect": "casing3",
   "rotateSpeed": 12,
-  "coolantMultiplier": 0.5,
   "displayAmmoMultiplier": true,
   "requirements": [
     "copper/1200",
@@ -29,9 +28,6 @@
   ],
   "consumes": {
     "power": 18,
-    "coolant": {
-      "amount": 4,
-    }
   },
   "ammoTypes": {
     "draetheus-alloy": {
