@@ -31,7 +31,7 @@
   "ammoEjectBack": 8,
   "coolantMultiplier": 0.3,
   "displayAmmoMultiplier": true,
-  "rotateSpeed": 25,
+  "rotateSpeed": 4,
   "shootSound": "shootBig",
   "category": "turret",
   "hasPower": false,
