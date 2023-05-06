@@ -28,7 +28,7 @@
   ],
   "consumes": {
     "power": 18,
-    "coolant" {
+    "coolant": {
       "amount": 0.8,
   },
   "ammoTypes": {
