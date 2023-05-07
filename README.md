@@ -7,6 +7,7 @@ An experimental mod.
 :warning: ```WARNING!``` :warning:
 - UNFINISHED CONTENT
 - UNFINISHED PLANET
+> May switch planet from JSON to JS/Java _(if possible)_
 - UNFINISHED SPRITES
 
 **Everything** here is a **WORK-IN-PROGRESS**!
