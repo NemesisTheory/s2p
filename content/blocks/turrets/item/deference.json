@@ -71,7 +71,7 @@
       "speed": 24,
       "damage": 65,
       "splashDamage": 85,
-      "splashDamageRadius": 12.1,
+      "splashDamageRadius": 58.1,
       "ammoMultiplier": 3,
       "hitSize": 5,
       "width": 12,
