@@ -1,0 +1,54 @@
+{
+  "type": "legs",
+  "name": "hymn",
+  "localizedName": "Hymn",
+  "description": "A refined successor to the Crawler unit type. Upon detonation, will engulf an area with napalm.",
+  "details": "The Hymn is specifically designed as a siege unit with the purpose of initiating the first attack against the enemy. Its role is to create additional openings or pathways for the subsequent units to launch their attacks.",
+  "hitSize": 12,
+  "health": 615,
+  "armor": 2,
+  "speed": 2.5,
+  "rotateSpeed": 3,
+  "legCount": 6,
+  "legLength": 6,
+  "legBaseOffset": 2,
+  "legExtension": -1,
+  "legSpeed": 1,
+  "allowLegStep": true,
+  "legSplashDamage": 25,
+  "legSplashRange": 4,
+  "maxStretch": 1.25,
+  "lightRadius": 100,
+  "lightColor": "84f591",
+  "drawShields": true,
+  "visualElevation": 0.3,
+  "weapons": [
+    {
+      "name": "a-wasted-hymn",
+      "top": false,
+      "ignoreRotation": true,
+      "reload": 1,
+      "bullet": {
+        "type": "BombBulletType",
+        "splashDamage": 1984,
+        "splashDamageRadius": 72,
+        "killShooter": true,
+        "absorbable": false,
+        "makeFire": true,
+        "incendAmount": 2,
+        "incendSpread": 12,
+        "incendChance": 0.85,
+        "shootEffect": "impactReactorExplosion"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "ForceFieldAbility",
+      "radius": 22,
+      "regen": 0.4,
+      "max": 626,
+      "cooldown": 540
+    }
+  ]
+}
