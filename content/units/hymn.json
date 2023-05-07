@@ -10,14 +10,14 @@
   "speed": 0.75,
   "rotateSpeed": 3,
   "legCount": 6,
-  "legLength": 18,
+  "legLength": 6,
   "legBaseOffset": 5,
-  "legExtension": -2,
+  "legExtension": -1,
   "legSpeed": 0.8,
   "legGroupSize": 3,
   "allowLegStep": true,
-  "legSplashDamage": 25,
-  "legSplashRange": 4,
+  "legSplashDamage": 12
+  "legSplashRange": 12
   "maxStretch": 1.25,
   "lightRadius": 2,
   "lightColor": "84f591",
