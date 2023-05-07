@@ -37,7 +37,7 @@
         "absorbable": false,
         "makeFire": true,
         "incendAmount": 4,
-        "incendSpread": 22,
+        "incendSpread": 11,
         "incendChance": 0.85,
         "shootEffect": "impactReactorExplosion"
       }
