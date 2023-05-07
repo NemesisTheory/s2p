@@ -6,6 +6,7 @@ An experimental mod.
 
 :warning: ```WARNING!``` :warning:
 - **UNFINISHED CONTENT**
+  - I will add the effects _(and perhaps proper/custom sound effects)_ for blocks after I'm done/finished with their core functions. _This also applies for their sprites._
 - **UNFINISHED PLANET**
   - May switch planet from JSON to JS/Java _(if possible)_
   - The planet is not yet meant to be played. It serves as a sort of template for me to improve upon.
