@@ -8,7 +8,7 @@
   "health": 715,
   "armor": 4,
   "speed": 0.75,
-  "rotateSpeed": 3,
+  "rotateSpeed": 0.1,
   "legCount": 6,
   "legLength": 12,
   "legBaseOffset": 5,
