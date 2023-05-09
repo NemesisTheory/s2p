@@ -75,9 +75,10 @@
           "sizeTo": 0,
           "colorFrom": "ffffff",
           "colorTo": "ffffff",
+        }
       }
     },
-    {
+    { 
       "name": "anthem-rail",
       "rotate": true,
       "x": 6,
