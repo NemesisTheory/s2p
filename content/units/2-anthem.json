@@ -101,7 +101,7 @@
       "name": "anthem-auto",
       "rotate": true,
       "x": 0,
-      "y": -4,
+      "y": -3,
       "reload": 8,
       "shoot": {
         "type": "ShootBarrel",
