@@ -103,14 +103,6 @@
       "x": 0,
       "y": -3,
       "reload": 8,
-      "shoot": {
-        "type": "ShootBarrel",
-        "shots": 2,
-        "barrels": [
-          -1, 1,
-          -1, 1
-        ]
-      },
       "recoil": 4,
       "shake": 1.4,
       "shootSound": "shootBig",
