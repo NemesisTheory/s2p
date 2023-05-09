@@ -96,7 +96,33 @@
         "status": "destabilized",
         "statusDuration": 45
       }
-    }
+    },
+    {
+      "name": "anthem-auto",
+      "rotate": true,
+      "x": 0,
+      "y": -4,
+      "reload": 15,
+      "recoil": 4,
+      "shake": 1.4,
+      "shootSound": "shootBig",
+      "drag": 0.011,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 38,
+        "speed": 10,
+        "width": 9,
+        "length": 12,
+        "hitSize": 4,
+        "lifetime": 19.5,
+        "hittable": false,
+        "collidesAir": true,
+        "absorbable": false,
+        "pierce": true,
+        "pierceCap": 3,
+        "pierceArmor": true,
+        "pierceBuilding": true,
+        "shootEffect": "fire",
   ],
   "abilities": [
     {
