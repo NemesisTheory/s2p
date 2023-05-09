@@ -1,5 +1,5 @@
 {
-  "type": "crawler",
+  "type": "crawl",
   "name": "1-hymn",
   "localizedName": "Hymn",
   "description": "A refined successor to the Crawler unit type. Upon detonation, will engulf an area with napalm. \n\nThe Hymn is recommended to be manually piloted and controlled, command mode is not recommended.",
