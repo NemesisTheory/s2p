@@ -60,6 +60,7 @@
       "radius": 26,
       "regen": 0.4,
       "max": 840,
+      "sides": 8,
       "cooldown": 840
     }
   ]
