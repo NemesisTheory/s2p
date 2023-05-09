@@ -2,7 +2,7 @@
   "type": "legs",
   "name": "2-anthem",
   "localizedName": "Anthem",
-  "description": ".",
+  "description": "The Anthem periodically unleashes a status field that overclocks nearby units.",
   "details": ".",
   "hovering": true,
   "drag": 0.6,
@@ -48,10 +48,12 @@
       "shootSound": "shotgun",
       "drag": 0.011,
       "bullet": {
-        "type": "RailBulletType",
+        "type": "BasicBulletType",
         "damage": 250,
-        "length": 50,
         "speed": 40,
+        "width": 8,
+        "length": 4,
+        "hitSize": 4,
         "lifetime": 35,
         "hittable": false,
         "collidesAir": true,
@@ -66,16 +68,8 @@
         "pierceBuilding": true,
         "pierceDamageFactor": 1.5,
         "shootEffect": "fire",
-        "updateEffect": {
-          "type": "ParticleEffect",
-          "lifetime": 35,
-          "particles": 1,
-          "length": 0,
-          "sizeFrom": 8,
-          "sizeTo": 0,
-          "colorFrom": "ffffff",
-          "colorTo": "ffffff",
-        }
+        "status": "destabilized",
+        "statusDuration": 75
       }
     },
     { 
@@ -89,10 +83,12 @@
       "shootSound": "shotgun",
       "drag": 0.011,
       "bullet": {
-        "type": "RailBulletType",
+        "type": "BasicBulletType",
         "damage": 250,
-        "length": 50,
         "speed": 40,
+        "width": 8,
+        "length": 4,
+        "hitSize": 4,
         "lifetime": 35,
         "hittable": false,
         "collidesAir": true,
@@ -107,16 +103,8 @@
         "pierceBuilding": true,
         "pierceDamageFactor": 1.5,
         "shootEffect": "fire",
-        "updateEffect": {
-          "type": "ParticleEffect",
-          "lifetime": 35,
-          "particles": 1,
-          "length": 0,
-          "sizeFrom": 8,
-          "sizeTo": 0,
-          "colorFrom": "ffffff",
-          "colorTo": "ffffff",
-        }
+        "status": "destabilized",
+        "statusDuration": 75
       }
     }
   ],
@@ -131,10 +119,10 @@
     },
     {
       "type": "StatusFieldAbility",
-      "effect": "destabilized",
-      "duration": 485,
-      "reload": 480,
-      "range": 325,
+      "effect": "overclock",
+      "duration": 240,
+      "reload": 520,
+      "range": 125,
       "onShoot": false
     }
   ]
