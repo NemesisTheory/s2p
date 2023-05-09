@@ -54,7 +54,7 @@
         "width": 8,
         "length": 4,
         "hitSize": 4,
-        "lifetime": 3,
+        "lifetime": 5,
         "hittable": false,
         "collidesAir": true,
         "absorbable": false,
@@ -84,7 +84,7 @@
         "width": 8,
         "length": 4,
         "hitSize": 4,
-        "lifetime": 3,
+        "lifetime": 5,
         "hittable": false,
         "collidesAir": true,
         "absorbable": false,
@@ -112,7 +112,7 @@
       "effect": "overclock",
       "duration": 240,
       "reload": 520,
-      "range": 125,
+      "range": 205,
       "onShoot": false
     }
   ]
