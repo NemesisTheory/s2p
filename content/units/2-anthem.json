@@ -112,7 +112,7 @@
       "effect": "overclock",
       "duration": 240,
       "reload": 520,
-      "range": 205,
+      "range": 185,
       "onShoot": false
     }
   ]
