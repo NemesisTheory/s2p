@@ -123,6 +123,7 @@
         "pierceArmor": true,
         "pierceBuilding": true,
         "shootEffect": "fire",
+      }
   ],
   "abilities": [
     {
