@@ -106,8 +106,10 @@
       "shoot": {
         "type": "ShootBarrel",
         "shots": 2,
+        "barrels": 2,
         "barrels": [
           -1, -1,
+          0, 0,
           1, 1
         ]
       },
