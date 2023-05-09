@@ -17,8 +17,6 @@
   "legSpeed": 0.8,
   "legGroupSize": 3,
   "allowLegStep": true,
-  "legSplashDamage": 12
-  "legSplashRange": 12
   "maxStretch": 1.25,
   "lightRadius": 2,
   "lightColor": "84f591",
