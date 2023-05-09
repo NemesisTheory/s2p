@@ -49,10 +49,10 @@
       "drag": 0.011,
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 250,
+        "damage": 160,
         "speed": 40,
-        "width": 14,
-        "length": 20,
+        "width": 18,
+        "length": 26,
         "hitSize": 4,
         "lifetime": 5,
         "hittable": false,
@@ -79,10 +79,10 @@
       "drag": 0.011,
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 250,
+        "damage": 160,
         "speed": 40,
-        "width": 14,
-        "length": 20,
+        "width": 18,
+        "length": 26,
         "hitSize": 4,
         "lifetime": 5,
         "hittable": false,
@@ -105,7 +105,7 @@
       "reload": 8,
       "shoot": {
         "type": "ShootBarrel",
-        "shots": 2,
+        "shots": 4,
         "barrels": 2,
         "barrels": [
           -1, -1,
@@ -113,6 +113,8 @@
           1, 1
         ]
       },
+      "inaccuracy": 2,
+      "shootCone": 8,
       "recoil": 4,
       "shake": 1.4,
       "shootSound": "shootBig",
@@ -121,8 +123,8 @@
         "type": "BasicBulletType",
         "damage": 38,
         "speed": 10,
-        "width": 9,
-        "length": 12,
+        "width": 12,
+        "length": 14,
         "hitSize": 4,
         "lifetime": 19.5,
         "hittable": false,
