@@ -11,7 +11,7 @@
   "shadowElevation": 0.3,
   "targetAir": false,
   "armor": 2,
-  "speed": 0.58,
+  "speed": 0.68,
   "rotateSpeed": 2.4,
   "legCount": 6,
   "legLength": 14,
@@ -40,7 +40,7 @@
     {
       "name": "anthem-rail",
       "rotate": true,
-      "x": -6,
+      "x": 6,
       "y": 3,
       "reload": 154,
       "recoil": 3.4,
@@ -50,7 +50,9 @@
       "bullet": {
         "type": "RailBulletType",
         "damage": 250,
-        "lifetime": 25,
+        "length": 50,
+        "speed": 40,
+        "lifetime": 35,
         "hittable": false,
         "collidesAir": true,
         "absorbable": false,
@@ -63,7 +65,16 @@
         "pierceArmor": true,
         "pierceBuilding": true,
         "pierceDamageFactor": 1.5,
-        "shootEffect": "unitCapKill"
+        "shootEffect": "fire",
+        "updateEffect": {
+          "type": "ParticleEffect",
+          "lifetime": 35,
+          "particles": 1,
+          "length": 0,
+          "sizeFrom": 8,
+          "sizeTo": 0,
+          "colorFrom": "ffffff",
+          "colorTo": "ffffff",
       }
     },
     {
@@ -79,7 +90,9 @@
       "bullet": {
         "type": "RailBulletType",
         "damage": 250,
-        "lifetime": 25,
+        "length": 50,
+        "speed": 40,
+        "lifetime": 35,
         "hittable": false,
         "collidesAir": true,
         "absorbable": false,
@@ -92,7 +105,17 @@
         "pierceArmor": true,
         "pierceBuilding": true,
         "pierceDamageFactor": 1.5,
-        "shootEffect": "unitCapKill"
+        "shootEffect": "fire",
+        "updateEffect": {
+          "type": "ParticleEffect",
+          "lifetime": 35,
+          "particles": 1,
+          "length": 0,
+          "sizeFrom": 8,
+          "sizeTo": 0,
+          "colorFrom": "ffffff",
+          "colorTo": "ffffff",
+        }
       }
     }
   ],
@@ -108,9 +131,10 @@
     {
       "type": "StatusFieldAbility",
       "effect": "destabilized",
-      "duration": 80,
-      "range": 24,
-      "onShoot": true
+      "duration": 485,
+      "reload": 480,
+      "range": 325,
+      "onShoot": false
     }
   ]
 }
