@@ -2,5 +2,6 @@
   "type": "status",
   "name": "directdamage",
   "localizedName": "Damage",
+  "show": false,
   "damage": 7.5
 }
