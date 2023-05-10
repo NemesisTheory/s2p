@@ -1,0 +1,64 @@
+{
+  "type": "flying",
+  "name": "6-portent",
+  "localizedName": "Portent",
+  "description": "A small, light scouting unit. Disables enemy healing blocks.",
+  "details": "A weaker alternative to the Quell or Disrupt.",
+  "hovering": true,
+  "drag": 0.2,
+  "accel": 0.8,
+  "hitSize": 16,
+  "health": 450,
+  "shadowElevation": 0.8,
+  "targetAir": true,
+  "speed": 1.85,
+  "rotateSpeed": 4.4,
+  "lightRadius": 2,
+  "lightColor":" 84f591",
+  "visualElevation": 0.8,
+  "range": 248,
+  "deathSound": "explosion",
+  "immunities": [
+    "destabilized",
+    "electrified"
+  ],
+  "weapons": [
+    {
+      "name": "portent-missile",
+      "rotate": false,
+      "x": 0,
+      "y": 0,
+      "reload": 80,
+      "recoil": 2,
+      "shake": 1.2,
+      "shootSound": "missile",
+      "drag": 0.011,
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 45,
+        "speed": 8,
+        "width": 6,
+        "length": 10,
+        "hitSize": 4,
+        "lifetime": 3,
+        "hittable": false,
+        "collidesAir": true,
+        "absorbable": true
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "SuppressionFieldAbility",
+      "reload": 540,
+      "range": 380,
+      "orbRadius": 4,
+      "orbMidScl": 0.4,
+      "orbSinScl": 8,
+      "orbSinMag": 1,
+      "color": "#89cff0",
+      "x": 0,
+      "y": -2
+    }
+  ]
+}
