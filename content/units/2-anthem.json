@@ -126,7 +126,7 @@
         "width": 24,
         "length": 70,
         "hitSize": 4,
-        "lifetime": 19.5,
+        "lifetime": 20.5,
         "hittable": false,
         "collidesAir": true,
         "absorbable": false,
