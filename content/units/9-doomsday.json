@@ -3,7 +3,7 @@
   "name": "9-doomsday",
   "localizedName": "Doomsday",
   "description": "The Doomsday periodically emits a damaging field that harms enemy units within its range, excluding other Doomsdays.",
-  "details": "",
+  "details": "The Doomsday actually possesses an energy shield that protects it from the damaging field that is emitted from it.",
   "hovering": true,
   "drag": 0.9,
   "accel": 0.6,
