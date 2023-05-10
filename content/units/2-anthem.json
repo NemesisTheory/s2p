@@ -70,7 +70,7 @@
     {
       "name": "anthem-rail",
       "rotate": false,
-      "x": 6,
+      "x": -6,
       "y": 3,
       "reload": 154,
       "recoil": 3.4,
