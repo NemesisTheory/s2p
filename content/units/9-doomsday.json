@@ -1,0 +1,165 @@
+{
+  "type": "flying",
+  "name": "9-doomsday",
+  "localizedName": "Doomsday",
+  "description": "(...)",
+  "details": "(...)",
+  "hovering": true,
+  "drag": 0.9,
+  "accel": 0.6,
+  "hitSize": 52,
+  "health": 10950,
+  "armor": 6,
+  "shadowElevation": 0.9,
+  "targetAir": true,
+  "speed": 0.62,
+  "rotateSpeed": 4.6,
+  "lightRadius": 2,
+  "lightColor":" 84f591",
+  "visualElevation": 0.9,
+  "range": 240,
+  "deathSound": "explosionBig",
+  "immunities": [
+    "overclock",
+    "electrified"
+  ],
+  "weapons": [
+    {
+      "name": "doomsday-meltD",
+      "rotate": true,
+      "x": -26,
+      "y": -26,
+      "reload": 165,
+      "recoil": 3,
+      "shake": 3,
+      "shootSound": "laser",
+      "drag": 0.011,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 350,
+        "length": 160,
+        "hitSize": 4,
+        "lifetime": 14,
+        "collidesAir": true,
+        "absorbable": true,
+        "incendAmount": 1,
+        "incendSpread": 4,
+        "incendChance": 0.3
+      }
+    },
+    {
+      "name": "doomsday-meltD",
+      "rotate": true,
+      "x": 26,
+      "y": -26,
+      "reload": 165,
+      "recoil": 3,
+      "shake": 3,
+      "shootSound": "laser",
+      "drag": 0.011,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 350,
+        "length": 160,
+        "hitSize": 4,
+        "lifetime": 14,
+        "collidesAir": true,
+        "absorbable": true,
+        "incendAmount": 1,
+        "incendSpread": 4,
+        "incendChance": 0.3
+      }
+    },
+    {
+      "name": "doomsday-meltD",
+      "rotate": true,
+      "x": -26,
+      "y": 26,
+      "reload": 165,
+      "recoil": 3,
+      "shake": 3,
+      "shootSound": "laser",
+      "drag": 0.011,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 350,
+        "length": 160,
+        "hitSize": 4,
+        "lifetime": 14,
+        "collidesAir": true,
+        "absorbable": true,
+        "incendAmount": 1,
+        "incendSpread": 4,
+        "incendChance": 0.3
+      }
+    },
+    {
+      "name": "doomsday-meltD",
+      "rotate": true,
+      "x": 26,
+      "y": 26,
+      "reload": 165,
+      "recoil": 3,
+      "shake": 3,
+      "shootSound": "laser",
+      "drag": 0.011,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 350,
+        "length": 160,
+        "hitSize": 4,
+        "lifetime": 14,
+        "collidesAir": true,
+        "absorbable": true,
+        "incendAmount": 1,
+        "incendSpread": 4,
+        "incendChance": 0.3
+      }
+    },
+    {
+      "name": "doomsday-meltD",
+      "rotate": true,
+      "x": 0,
+      "y": 0,
+      "reload": 165,
+      "recoil": 3,
+      "shake": 3,
+      "shootSound": "laser",
+      "drag": 0.011,
+      "bullet": {
+        "type": "ContinuousLaserBulletType",
+        "damage": 350,
+        "length": 160,
+        "hitSize": 4,
+        "lifetime": 14,
+        "collidesAir": true,
+        "absorbable": true,
+        "incendAmount": 1,
+        "incendSpread": 4,
+        "incendChance": 0.3
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "type": "SuppressionFieldAbility",
+      "reload": 840,
+      "range": 280,
+      "orbRadius": 4,
+      "orbMidScl": 0.4,
+      "orbSinScl": 8,
+      "orbSinMag": 1,
+      "color": "#89cff0",
+      "x": 0,
+      "y": -2,
+      "onShoot": false
+    },
+    {
+      "type": "StatusFieldAbility",
+      "effect": "directdamage",
+      "duration": 120,
+      "reload": 310,
+      "range": 280
+    }
+  ]
+}
