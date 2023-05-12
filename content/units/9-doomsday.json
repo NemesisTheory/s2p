@@ -38,7 +38,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 150,
+        "damage": 75,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -64,7 +64,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 150,
+        "damage": 75,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -90,7 +90,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 150,
+        "damage": 75,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -116,7 +116,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 150,
+        "damage": 75,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -142,10 +142,10 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 150,
+        "damage": 125,
         "status": "melting",
         "statusDuration": 90,
-        "length": 120,
+        "length": 180,
         "hitSize": 4,
         "lifetime": 14,
         "collidesAir": true,
@@ -172,7 +172,7 @@
     },
     {
       "type": "EnergyFieldAbility",
-      "damage": 1.08,
+      "damage": 125,
       "status": "directdamage",
       "statusDuration": 20,
       "reload": 130,
