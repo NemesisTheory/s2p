@@ -28,6 +28,7 @@
     {
       "name": "doomsday-meltD",
       "rotate": true,
+      "shootDuration": 200,
       "x": -26,
       "y": -26,
       "reload": 165,
@@ -38,7 +39,8 @@
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "damage": 150,
-        "lifetime": 3,
+        "status": "melting",
+        "statusDuration": 90,
         "length": 120,
         "hitSize": 4,
         "lifetime": 14,
@@ -52,6 +54,7 @@
     {
       "name": "doomsday-meltD",
       "rotate": true,
+      "shootDuration": 200,
       "x": 26,
       "y": -26,
       "reload": 165,
@@ -62,7 +65,8 @@
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "damage": 150,
-        "lifetime": 3,
+        "status": "melting",
+        "statusDuration": 90,
         "length": 120,
         "hitSize": 4,
         "lifetime": 14,
@@ -76,6 +80,7 @@
     {
       "name": "doomsday-meltD",
       "rotate": true,
+      "shootDuration": 200,
       "x": -26,
       "y": 26,
       "reload": 165,
@@ -86,7 +91,8 @@
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "damage": 150,
-        "lifetime": 3,
+        "status": "melting",
+        "statusDuration": 90,
         "length": 120,
         "hitSize": 4,
         "lifetime": 14,
@@ -100,6 +106,7 @@
     {
       "name": "doomsday-meltD",
       "rotate": true,
+      "shootDuration": 200,
       "x": 26,
       "y": 26,
       "reload": 165,
@@ -110,7 +117,8 @@
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "damage": 150,
-        "lifetime": 3,
+        "status": "melting",
+        "statusDuration": 90,
         "length": 120,
         "hitSize": 4,
         "lifetime": 14,
@@ -124,6 +132,7 @@
     {
       "name": "doomsday-meltD",
       "rotate": true,
+      "shootDuration": 200,
       "x": 0,
       "y": 0,
       "reload": 165,
@@ -134,7 +143,8 @@
       "bullet": {
         "type": "ContinuousLaserBulletType",
         "damage": 150,
-        "lifetime": 3,
+        "status": "melting",
+        "statusDuration": 90,
         "length": 120,
         "hitSize": 4,
         "lifetime": 14,
@@ -161,11 +171,19 @@
       "onShoot": false
     },
     {
-      "type": "StatusFieldAbility",
-      "effect": "directdamage",
-      "duration": 120,
-      "reload": 310,
-      "range": 280
+      "type": "EnergyFieldAbility",
+      "damage": 1.08,
+      "status": "directdamage",
+      "statusDuration": 20,
+      "reload": 130,
+      "range": 280,
+      "targetGround": true,
+      "targetAir": true,
+      "hitUnits": true,
+      "hitBuildings": true,
+      "maxTargets": 16,
+      "color": "#ff5349",
+      "sectors": 6
     }
   ]
 }
