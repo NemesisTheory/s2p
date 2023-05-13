@@ -1,5 +1,5 @@
 {
-  "type": "crawl",
+  "type": "mech",
   "name": "1-hymn",
   "localizedName": "Hymn",
   "description": "A refined successor to the Crawler unit type. Upon detonation, will engulf an area with napalm.",
@@ -37,7 +37,7 @@
         "collidesTiles": false,
         "collides": false,
         "speed": 0,
-        "splashDamage": 3850,
+        "splashDamage": 1650,
         "splashDamageRadius": 144,
         "killShooter": true,
         "instantDissapear": true,
