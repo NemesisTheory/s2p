@@ -1,6 +1,6 @@
 {
   "type": "mech",
-  "name": "9-2-misanthrope",
+  "name": "11-misanthrope",
   "localizedName": "Misanthrope",
   "description": "(empty)",
   "details": "(empty)",
@@ -14,7 +14,7 @@
   "deathSound": "explosionbig",
   "immunities": [
     "meltdown-status",
-    "directdamage", 
+    "directdamage",
     "melting"
     ],
   "weapons": [
@@ -22,16 +22,12 @@
       "name": "misanthrope-mg",
       "rotate": "false",
       "x": 0,
-      "y": 11,
-      "reload": 8,
+      "y": 6,
+      "reload": 15,
       "recoil": 1.4,
       "shake": 1.1,
-      "mirror": true,
-      "alternate": false,
       "shootY": 3,
       "shoot": {
-        "type": "shootPattern",
-        "shotDelay": 3,
         "shots": 3,
         "barrels": 3,
         "barrels": [
@@ -40,29 +36,67 @@
           0, 1, 0
         ]
       },
-    	"inaccuracy": 2,
+      "inaccuracy": 2,
       "shootCone": 4,
-    	"bullet": {
+      "bullet": {
         "type": "BasicBulletType",
         "hitSize": 3,
         "collidesAir": true,
         "speed": 4,
         "damage": 12,
         "width": 0.2,
-       "height": 0.2
+        "height": 0.2
+      }
     },
-    "shootEffect": {
-      "type": "ParticleEffect",
-      "particles": 15,
-      "sizeFrom": 4,
-      "sizeTo": 0,
-      "interp": "circleOut",
-      "length": 68.4,
-      "lifetime": 20,
-      "cone": 8,
-      "lightColor": "ea33a7",
-      "colorFrom": "e21797",
-      "colorTo": "a1106c"
+    {
+      "name": "misanthrope-mg",
+      "rotate": "false",
+      "x": 11,
+      "y": 6,
+      "reload": 15,
+      "recoil": 1.4,
+      "shake": 1.1,
+      "shootY": 3,
+      "shoot": {
+        "shots": 3,
+        "barrels": 3,
+        "barrels": [
+          0, 1, 0,
+          1, 0, 1,
+          0, 1, 0
+        ]
+      },
+      "inaccuracy": 2,
+      "shootCone": 4,
+      "bullet": {
+        "type": "BasicBulletType",
+        "hitSize": 3,
+        "collidesAir": true,
+        "speed": 4,
+        "damage": 14,
+        "width": 0.2,
+        "height": 0.2
+      }
+    },
+    {
+      "name": "misanthrope-mg",
+      "rotate": "false",
+      "x": 0,
+      "y": 0,
+      "reload": 80,
+      "recoil": 1.9,
+      "shake": 1.1,
+      "shootY": 3,
+      "inaccuracy": 2,
+      "shootCone": 4,
+      "bullet": {
+        "type": "BasicBulletType",
+        "hitSize": 4,
+        "collidesAir": true,
+        "speed": 4,
+        "damage": 55,
+        "width": 0.2,
+        "height": 0.2
     },
     "smokeEffect": "none",
     "lifetime": 10,
