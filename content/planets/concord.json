@@ -9,7 +9,7 @@
     "color1": "#82eefd",
     "color2": "#1e90ff",
     "radius": 0.8,
-    "octaves": 2.5,
+    "octaves": 3,
     "persistence": 0.8,
     "scale": 1,
     "mag": 1.5
@@ -17,15 +17,15 @@
   "cloudMesh": {
     "type": "HexSkyMesh",
     "planet": "concord",
-    "seed": 96,
-    "speed": 0.7,
-    "radius": 0.2,
+    "seed": 3,
+    "speed": 0.4,
+    "radius": 0.05,
     "divisions": 4,
     "color": "#e5f3fd",
     "octaves": 3,
     "persistence": 0.7,
     "scl": 1,
-    "thresh": 0.8
+    "thresh": 0.4
   },
   "generator": {
     "min": 1,
@@ -60,8 +60,8 @@
   "bloom": true,
   "visible": true,
   "atmosphereColor": "#add8e6",
-  "iconColor": "29302b",
-  "hasAtmosphere": false,
+  "iconColor": "add8e6",
+  "hasAtmosphere": true,
   "allowWaveSimulation": true,
   "clearSectorOnLose": true,
   "allowWaves": true,
