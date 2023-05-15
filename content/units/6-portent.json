@@ -4,7 +4,6 @@
   "localizedName": "Portent",
   "description": "A small, light scouting unit. Disables enemy healing blocks.",
   "details": "A weaker alternative to the Quell or Disrupt.",
-  "hovering": true,
   "drag": 0.2,
   "accel": 0.9,
   "hitSize": 16,
