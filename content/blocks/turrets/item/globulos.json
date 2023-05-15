@@ -5,14 +5,24 @@
   "details": "balanced"
   "size": 10,
   "health": 1,
-  "range": 500,
+  "range": 100,
   "targetAir": true,
   "reload": 0.5,
   "shoot": {
   "type": "ShootBarrel",
-  "shots": 30,
-  "barrels": 10,
+  "shots": 60,
+  "barrels": 20,
 "barrels": [
+  2, 8, 5,
+  6, 4, 9,
+  1, 3, 7,
+  5, 2, 8,
+  4, 7, 3,
+  9, 6, 4,
+  8, 1, 5,
+  3, 5, 2,
+  7, 9, 6,
+  2, 4, 1,
   2, 8, 5,
   6, 4, 9,
   1, 3, 7,
@@ -25,12 +35,12 @@
   2, 4, 1
   ]
 },
-  "inaccuracy": 15,
-  "shootCone": 20,
+  "inaccuracy": 350,
+  "shootCone": 350,
   "recoil": 200,
   "shake": 20.6,
   "recoilTime": -50,
-  "maxAmmo": 30,
+  "maxAmmo": 60,
   "ammoUseEffect": "casing3",
   "ammoEjectBack": 10,
   "coolantMultiplier": 0.2,
@@ -54,7 +64,7 @@
     }
   },
   "ammoTypes": {
-    "graphite": {
+    "sand": {
       "type": "BasicBulletType",
       "speed": 15,
       "damage": 1982482844.28282,
@@ -63,7 +73,7 @@
       "width": 25,
       "height": 35,
       "shootEffect": "shootBig",
-      "lifetime": 28,
+      "lifetime": 60,
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
       "knockback": 5,
@@ -76,6 +86,28 @@
       "incendSpread": 5,
       "incendChance": 0.9999,
       "hittable": true
-    }
+    },
+    "beryllium": {
+      "type": "BasicBulletType",
+      "speed": 15,
+      "damage": 2099999999.9999999,
+      "ammoMultiplier": 2,
+      "hitSize": 8,
+      "width": 25,
+      "height": 35,
+      "shootEffect": "shootBig",
+      "lifetime": 60,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "knockback": 10,
+      "pierce": true,
+      "pierceCap": 100000,
+      "pierceBuilding": true,
+      "pierceArmor": true,
+      "makeFire": true,
+      "incendAmount": 1,
+      "incendSpread": 5,
+      "incendChance": 0.9999,
+      "hittable": true
   }
 }
