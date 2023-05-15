@@ -16,7 +16,7 @@
     "meltdown-status",
     "directdamage",
     "melting"
-    ],
+  ],
   "weapons": [
     {
       "name": "misanthrope-mg",
@@ -26,7 +26,6 @@
       "reload": 15,
       "recoil": 1.4,
       "shake": 1.1,
-      "shootY": 3,
       "shoot": {
         "shots": 3,
         "barrels": 3,
@@ -56,7 +55,6 @@
       "reload": 15,
       "recoil": 1.4,
       "shake": 1.1,
-      "shootY": 3,
       "shoot": {
         "shots": 3,
         "barrels": 3,
@@ -80,13 +78,12 @@
     },
     {
       "name": "misanthrope-cnn",
-      "rotate": "false",
+      "rotate": "true",
       "x": 0,
       "y": 0,
       "reload": 80,
       "recoil": 1.9,
       "shake": 1.1,
-      "shootY": 3,
       "inaccuracy": 2,
       "shootCone": 4,
       "bullet": {
@@ -97,15 +94,7 @@
         "damage": 55,
         "width": 0.2,
         "height": 0.2
-    },
-    "smokeEffect": "none",
-    "lifetime": 10,
-  	"despawnEffect": "none",
-    "hittable": true
-	},
-    {
-	  "pierce": true,
-      "pierceCap": 3
+      }
     },
     {
       "abilities": "ShieldArcAbility",
