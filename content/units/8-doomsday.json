@@ -4,7 +4,6 @@
   "localizedName": "Doomsday",
   "description": "(empty)",
   "details": "(empty)",
-  "hovering": true,
   "drag": 0.9,
   "accel": 0.6,
   "hitSize": 40,
