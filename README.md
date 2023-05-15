@@ -14,4 +14,24 @@ An experimental mod.
 
 **Everything** here is a **WORK-IN-PROGRESS**!
 
+Current content:
+```json
+"Turrets": "Broadside",
+           "Venerate, Deference",
+           "Sovereign"
+
+"Units": "Hymn, Anthem, (Serenade), (Symphony), (Euphony)",
+         "Portent, (Premonition), Doomsday, (Hereafter), (Damnation)",
+         "Misanthrope, (Naysayer), (Despondent), (Nihilist), (Unbeliever/Fatalist)"
+       
+"Items": "Verentium, Draetheus Alloy, Actium"
+
+"Liquids": "Camber Coolant"
+
+"Status Effects": "Destabilized, Shutdown",
+                  "Meltdown, Regeneration"
+       
+"Planets": "Concord"
+```
+
 ###### i need help with the planets :skull:
