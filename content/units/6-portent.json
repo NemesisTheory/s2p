@@ -34,8 +34,8 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 25,
-        "splashDamage": 8,
+        "damage": 10,
+        "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
         "width": 6,
@@ -59,8 +59,8 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 25,
-        "splashDamage": 8,
+        "damage": 10,
+        "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
         "width": 6,
@@ -84,8 +84,8 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 25,
-        "splashDamage": 8,
+        "damage": 10,
+        "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
         "width": 6,
@@ -109,8 +109,8 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 25,
-        "splashDamage": 8,
+        "damage": 10,
+        "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
         "width": 6,
