@@ -14,7 +14,7 @@ An experimental mod.
 
 **Everything** here is a **WORK-IN-PROGRESS**!
 
-Current content:
+Current content _("Balanced" for Serpulo)_:
 ```json
 "Turrets": "Broadside",
            "Venerate, Deference",
