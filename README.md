@@ -4,7 +4,7 @@ A _(JSON)_ Mindustry mod that I'm actually going to put effort into.
 
 An experimental mod.
 
-:warning: ```WARNING!``` :warning:
+# ```WARNING!```
 - **UNFINISHED CONTENT**
   - I will add the effects _(and perhaps proper/custom sound effects)_ for blocks after I'm done/finished with their core functions. _This also applies for their sprites._
 - **UNFINISHED PLANET**
