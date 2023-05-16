@@ -35,3 +35,5 @@ Current content _("Balanced" for Serpulo)_:
 ```
 
 ###### i need help with the planets :skull:
+
+there is no established lore just figure it the fuck out yourself
