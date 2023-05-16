@@ -15,6 +15,7 @@ An experimental mod.
 **Everything** here is a **WORK-IN-PROGRESS**!
 
 Current content _("Balanced" for Serpulo)_:
+###### I still can't decide if the content here deserves to go to Concord to become planet-exclusive tech, or for Concord to be a "3rd" planet.
 ```json
 "Turrets": "Broadside",
            "Venerate, Deference",
