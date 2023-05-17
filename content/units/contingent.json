@@ -1,0 +1,54 @@
+{
+  "name": "contingent",
+  "localizedName": "Contingent",
+  "type": "flying",
+  "template": "ErekirUnitType",
+  "fogRadius": 15,
+  "mineSpeed": 8,
+  "buildSpeed": 1.4,
+  "mineTier": 4,
+  "armor": 2,
+  "engineOffset": 0,
+  "engineSize": 2,
+  "hitSize": 16,
+  "rotateSpeed": 10,
+  "itemCapacity": 25,
+  "targetPriority": -1,
+  "mineWalls": true,
+  "mineHardnessScaling": false,
+  "mineFloor": false,
+  "speed": 0.72,
+  "health": 350,
+  "immunities": [
+    "melting",
+    "destabilized"
+  ],
+  "weapons": [
+    {
+      "name": "contingent-laser",
+      "rotate": false,
+      "x": 0,
+      "y": 0,
+      "reload": 135,
+      "recoil": 3.6,
+      "shake": 5,
+      "shootSound": "laser",
+      "drag": 0.011,
+      "bullet": {
+        "type": "LaserBulletType",
+        "damage": 210,
+        "status": "destabilized",
+        "statusDuration": 30,
+        "length": 173,
+        "hitSize": 4,
+        "lifetime": 16,
+        "drawSize": 400,
+        "collidesAir": true,
+        "absorbable": true,
+        "pierce": true,
+        "pierceCap": 4,
+        "buildingDamageMultiplier": 0.15
+      }
+    }
+  ]
+}
