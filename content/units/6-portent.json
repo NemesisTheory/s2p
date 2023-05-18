@@ -7,7 +7,7 @@
   "drag": 0.2,
   "accel": 0.9,
   "hitSize": 16,
-  "health": 450,
+  "health": 385,
   "shadowElevation": 0.8,
   "targetAir": true,
   "speed": 2.85,
