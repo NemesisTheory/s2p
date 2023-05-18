@@ -1,12 +1,12 @@
 {
+  "type": "flying",
   "name": "contingent",
   "localizedName": "Contingent",
-  "type": "flying",
   "template": "ErekirUnitType",
   "fogRadius": 15,
   "mineSpeed": 8,
   "buildSpeed": 1.4,
-  "mineTier": 4,
+  "mineTier": 3,
   "armor": 2,
   "engineOffset": 0,
   "engineSize": 2,
@@ -36,7 +36,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 210,
+        "damage": 95,
         "status": "destabilized",
         "statusDuration": 30,
         "length": 173,
