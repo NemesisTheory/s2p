@@ -54,7 +54,7 @@
     "lead": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 9,
+      "damage": 8,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
       "intervalBullets": 8,
@@ -66,12 +66,13 @@
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
       "knockback": 0.15,
-      "hittable": true
+      "hittable": true,
+      "buildingDamageMultiplier": 0.4
     },
     "graphite": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 15,
+      "damage": 14,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
       "intervalBullets": 8,
@@ -84,12 +85,13 @@
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
       "knockback": 0.28,
-      "hittable": true
+      "hittable": true,
+      "buildingDamageMultiplier": 0.4
     },
     "draetheus-alloy": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 35,
+      "damage": 28,
       "ammoMultiplier": 1,
       "bulletInterval": 5,
       "intervalBullets": 8,
@@ -101,12 +103,13 @@
       "collidesAir": true,
       "hitEffect": "colorSparkBig",
       "knockback": 0.34,
-      "hittable": true
+      "hittable": true,
+      "buildingDamageMultiplier": 0.4
     },
     "verentium": {
       "type": "BasicBulletType",
       "speed": 10,
-      "damage": 14,
+      "damage": 12,
       "ammoMultiplier": 2,
       "bulletInterval": 5,
       "intervalBullets": 8,
@@ -120,7 +123,8 @@
       "status": "destabilized",
       "statusDuration": 28,
       "knockback": 0,
-      "hittable": true
+      "hittable": true,
+      "buildingDamageMultiplier": 0.4
     }
   }
 }
