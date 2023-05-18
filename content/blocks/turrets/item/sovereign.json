@@ -15,7 +15,7 @@
   "shake": 4.1,
   "maxAmmo": 45,
   "recoilTime": -15,
-  "ammoUseEffect": "casing3",
+  "ammoUseEffect": "casing2",
   "rotateSpeed": 12,
   "displayAmmoMultiplier": true,
   "requirements": [
@@ -46,7 +46,8 @@
       "damage": 965,
       "ammoMultiplier": 1,
       "status": "meltdown-status",
-      "statusDuration": 195
+      "statusDuration": 195,
+      "buildingDamageMultiplier": 0.05
     }
   }
 }
