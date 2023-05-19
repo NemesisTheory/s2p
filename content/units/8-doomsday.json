@@ -8,7 +8,7 @@
   "drag": 0.9,
   "accel": 0.6,
   "hitSize": 40,
-  "health": 5250,
+  "health": 2250,
   "armor": 8,
   "shadowElevation": 0.9,
   "targetAir": true,
@@ -38,7 +38,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 35.5,
+        "damage": 7.08,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -64,7 +64,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 35.5,
+        "damage": 7.08,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -90,7 +90,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 35.5,
+        "damage": 7.08,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -116,7 +116,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 35.5,
+        "damage": 7.08,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -142,7 +142,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 62.5,
+        "damage": 8.4,
         "status": "melting",
         "statusDuration": 90,
         "length": 180,
@@ -172,7 +172,7 @@
     },
     {
       "type": "EnergyFieldAbility",
-      "damage": 32,
+      "damage": 25,
       "status": "directdamage",
       "statusDuration": 20,
       "reload": 180,
