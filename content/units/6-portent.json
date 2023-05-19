@@ -1,5 +1,6 @@
 {
   "type": "flying",
+  "flying": true,
   "name": "6-portent",
   "localizedName": "Portent",
   "description": "A small, light scouting unit. Disables enemy healing blocks.",
@@ -7,7 +8,7 @@
   "drag": 0.2,
   "accel": 0.9,
   "hitSize": 16,
-  "health": 385,
+  "health": 185,
   "shadowElevation": 0.8,
   "targetAir": true,
   "speed": 2.85,
@@ -34,7 +35,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 10,
+        "damage": 8,
         "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
@@ -59,7 +60,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 10,
+        "damage": 8,
         "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
@@ -84,7 +85,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 10,
+        "damage": 8,
         "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
@@ -109,7 +110,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "MissileBulletType",
-        "damage": 10,
+        "damage": 8,
         "splashDamage": 4,
         "splashDamageRadius": 28,
         "speed": 8,
