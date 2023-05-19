@@ -1,0 +1,23 @@
+{
+  "name": "legion",
+  "localizedName": "Core: Legion",
+  "description": "An alternative to the Core: Nucleus, with this iteration designed more for combat.",
+  "details": "The Core: Legion was originally supposed to deploy hundreds of small 'drones' to attack, manufacture, and exploit.",
+  "type": "CoreBlock",
+  "health": 4400,
+  "squareSprite": true,
+  "size": 5,
+  "armor": 15,
+  "itemCapacity": 3500,
+  "unitCapModifier": 14,
+  "buildCostMultiplier": 0.4,
+  "unitType": "legion-contingent",
+  "requirements": [
+    "copper/6500",
+    "lead/6500",
+    "thorium/7500",
+    "silicon/3000",
+    "actium/1500"
+    ],
+  "category": "effect"
+}
