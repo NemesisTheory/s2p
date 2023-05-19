@@ -1,0 +1,91 @@
+{
+  "name": "venerate",
+  "localizedName": "Venerate",
+  "description": "A medium-range moderate-firerate fully automatic turret designed to be an alternative to the Spectre.",
+  "details": "The Venerate is particularly vulnerable to most forms of attack, due to how it's structured and the particularly weak materials it is built from.",
+  "size": 4,
+  "health": 780,
+  "range": 224,
+  "reload": 18,
+  "shoot": {
+  "type": "ShootBarrel",
+  "shots": 3,
+  "barrels": 3,
+  "barrels": [
+    6, 0, 0,
+    -6, 0, 0,
+    0, 6, 0
+  ]
+},
+  "inaccuracy": 4,
+  "shootCone": 12,
+  "recoil": 4.2,
+  "shake": 2.5,
+  "recoilTime": -8,
+  "maxAmmo": 25,
+  "ammoUseEffect": "casing3",
+  "coolantMultiplier": 0.8,
+  "displayAmmoMultiplier": true,
+  "rotateSpeed": 2,
+  "shootSound": "shootBig",
+  "category": "turret",
+  "hasPower": true,
+  "type": "ItemTurret",
+  "requirements": [
+    "copper/920",
+    "lead/855",
+    "titanium/600",
+    "silicon/450",
+    "metaglass/750",
+    "plastanium/90",
+    "verentium/105"
+  ],
+  "consumes": {
+    "power": 5.9,
+    "coolant": {
+      "amount": 0.4
+    }
+  },
+  "ammoTypes": {
+    "titanium": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 62,
+      "ammoMultiplier": 3,
+      "hitSize": 3,
+      "width": 12,
+      "height": 17,
+      "frontColor": "#cce0ff",
+      "backColor": "#afbde4",
+      "shootEffect": "shootBig",
+      "lifetime": 21.5,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "pierce": true,
+      "pierceCap": 2,
+      "fragOnHit": true,
+      "fragBullets": 3,
+      "knockback": 0.3,
+      "hittable": true
+    },
+    "draetheus-alloy": {
+      "type": "BasicBulletType",
+      "speed": 10,
+      "damage": 95,
+      "ammoMultiplier": 2,
+      "hitSize": 4,
+      "width": 12,
+      "height": 17,
+      "shootEffect": "shootBig",
+      "lifetime": 21.5,
+      "collidesAir": true,
+      "hitEffect": "colorSparkBig",
+      "pierce": true,
+      "pierceCap": 5,
+      "fragOnHit": true,
+      "fragBullets": 5,
+      "knockback": 0.9,
+      "hittable": true
+    }
+  }
+}
