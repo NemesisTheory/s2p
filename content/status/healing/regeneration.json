@@ -1,0 +1,9 @@
+{
+  "type": "status",
+  "name": "regeneration",
+  "localizedName": "Regeneration",
+  "description": "The unit is being repaired by an internal mechanism or by repair drones.",
+  "speedMultiplier": 0.85,
+  "reloadMultiplier": 0.79,
+  "damage": -5.6
+}
