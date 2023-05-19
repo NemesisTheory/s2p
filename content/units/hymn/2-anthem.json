@@ -7,7 +7,7 @@
   "hovering": true,
   "drag": 0.6,
   "hitSize": 28,
-  "health": 850,
+  "health": 650,
   "shadowElevation": 0.3,
   "targetAir": false,
   "armor": 2,
@@ -49,7 +49,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 85,
+        "damage": 65,
         "speed": 40,
         "width": 36,
         "length": 52,
@@ -79,7 +79,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 85,
+        "damage": 65,
         "speed": 40,
         "width": 36,
         "length": 52,
