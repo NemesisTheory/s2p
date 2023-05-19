@@ -36,7 +36,7 @@
         "collidesTiles": false,
         "collides": false,
         "speed": 0,
-        "splashDamage": 850,
+        "splashDamage": 485,
         "splashDamageRadius": 64,
         "killShooter": true,
         "instantDissapear": true,
