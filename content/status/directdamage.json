@@ -1,7 +1,0 @@
-{
-  "type": "status",
-  "name": "directdamage",
-  "localizedName": "Damage",
-  "show": false,
-  "damage": 9.5
-}
