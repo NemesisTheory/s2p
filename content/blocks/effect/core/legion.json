@@ -8,7 +8,7 @@
   "squareSprite": true,
   "size": 5,
   "armor": 15,
-  "itemCapacity": 3500,
+  "itemCapacity": 11500,
   "unitCapModifier": 14,
   "buildCostMultiplier": 0.4,
   "unitType": "legion-contingent",
