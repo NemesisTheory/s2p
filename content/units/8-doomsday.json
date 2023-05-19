@@ -1,8 +1,9 @@
 {
   "type": "flying",
+  "flying": true,
   "name": "8-doomsday",
   "localizedName": "Doomsday",
-  "description": "(empty)",
+  "description": "Emits a damaging energy field. A weaker aerial alternative to the Aegires.",
   "details": "(empty)",
   "drag": 0.9,
   "accel": 0.6,
@@ -37,7 +38,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 40.5,
+        "damage": 35.5,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -63,7 +64,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 40.5,
+        "damage": 35.5,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -89,7 +90,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 40.5,
+        "damage": 35.5,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -115,7 +116,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 40.5,
+        "damage": 35.5,
         "status": "melting",
         "statusDuration": 90,
         "length": 120,
@@ -141,7 +142,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "ContinuousLaserBulletType",
-        "damage": 72.5,
+        "damage": 62.5,
         "status": "melting",
         "statusDuration": 90,
         "length": 180,
@@ -171,7 +172,7 @@
     },
     {
       "type": "EnergyFieldAbility",
-      "damage": 55,
+      "damage": 32,
       "status": "directdamage",
       "statusDuration": 20,
       "reload": 180,
