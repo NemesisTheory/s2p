@@ -59,7 +59,7 @@
       "rotate": true,
       "x": 0,
       "y": 0,
-      "reload": 12,
+      "reload": 11,
       "recoil": 1.5,
       "shake": 2,
       "shootSound": "pew",
@@ -67,10 +67,21 @@
       "bullet": {
         "type": "BasicBulletType",
         "damage": 14,
+        "speed": 5,
         "hitSize": 3,
         "width": 4,
         "length": 8,
         "lifetime": 64,
+        "shoot": {
+        "type": "ShootBarrel",
+        "shots": 3,
+        "barrels": 3,
+         "barrels": [
+           6, 0, 0,
+           -6, 0, 0,
+           0, 6, 0
+           ]
+        },
         "collidesAir": false,
         "absorbable": false,
         "inaccuracy": 2,
