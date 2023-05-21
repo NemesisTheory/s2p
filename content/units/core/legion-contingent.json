@@ -48,7 +48,7 @@
         "absorbable": true,
         "pierce": true,
         "pierceCap": 4,
-        "buildingDamageMultiplier": 0.15
+        "buildingDamageMultiplier": 0.08
       }
     },
     {
@@ -83,7 +83,7 @@
         "absorbable": false,
         "inaccuracy": 4,
         "shootCone": 8,
-        "buildingDamageMultiplier": 0.15
+        "buildingDamageMultiplier": 0.08
       }
     },
     {
@@ -118,7 +118,42 @@
         "absorbable": false,
         "inaccuracy": 4,
         "shootCone": 8,
-        "buildingDamageMultiplier": 0.15
+        "buildingDamageMultiplier": 0.08
+      }
+    },
+    {
+      "name": "contingent-unbrl",
+      "rotate": true,
+      "x": 0,
+      "y": 0,
+      "reload": 6,
+      "recoil": 1.5,
+      "shake": 2,
+      "shootSound": "pew",
+      "drag": 0.02,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 40,
+        "speed": 5,
+        "hitSize": 3,
+        "width": 4,
+        "length": 8,
+        "lifetime": 32,
+        "shoot": {
+        "type": "ShootBarrel",
+        "shots": 3,
+        "barrels": 3,
+         "barrels": [
+           6, 0, 0,
+           -6, 0, 0,
+           0, 6, 0
+           ]
+        },
+        "collidesAir": false,
+        "absorbable": false,
+        "inaccuracy": 4,
+        "shootCone": 8,
+        "buildingDamageMultiplier": 0.08
       }
     }
   ]
