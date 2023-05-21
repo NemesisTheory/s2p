@@ -9,7 +9,7 @@
   "size": 5,
   "armor": 15,
   "itemCapacity": 11500,
-  "unitCapModifier": 14,
+  "unitCapModifier": 28,
   "buildCostMultiplier": 0.4,
   "unitType": "legion-contingent",
   "requirements": [
