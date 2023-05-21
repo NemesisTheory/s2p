@@ -5,11 +5,9 @@
   "localizedName": "Contingent",
   "description": "Defends the Core: Legion from enemies. Builds slower than the Gamma unit however is compensated by it's combat capabilities against units.",
   "details": "The second iteration and 'design' of the Core: Legion's core unit.",
-  "template": "ErekirUnitType",
-  "fogRadius": 15,
   "mineSpeed": 1.5,
   "buildSpeed": 0.89,
-  "mineTier": 2,
+  "mineTier": 3,
   "armor": 2,
   "engineOffset": 0,
   "engineSize": 2,
@@ -17,9 +15,8 @@
   "rotateSpeed": 10,
   "itemCapacity": 25,
   "targetPriority": -1,
-  "mineWalls": true,
   "mineHardnessScaling": false,
-  "mineFloor": false,
+  "mineFloor": true,
   "speed": 3.25,
   "accel": 0.8,
   "health": 350,
@@ -40,7 +37,7 @@
       "drag": 0.011,
       "bullet": {
         "type": "LaserBulletType",
-        "damage": 95,
+        "damage": 350,
         "status": "destabilized",
         "statusDuration": 30,
         "length": 173,
@@ -66,7 +63,7 @@
       "drag": 0.02,
       "bullet": {
         "type": "BasicBulletType",
-        "damage": 8,
+        "damage": 40,
         "speed": 5,
         "hitSize": 3,
         "width": 4,
@@ -84,8 +81,43 @@
         },
         "collidesAir": false,
         "absorbable": false,
-        "inaccuracy": 3.5,
-        "shootCone": 6,
+        "inaccuracy": 4,
+        "shootCone": 8,
+        "buildingDamageMultiplier": 0.15
+      }
+    },
+    {
+      "name": "contingent-unbrl",
+      "rotate": true,
+      "x": 0,
+      "y": 0,
+      "reload": 6,
+      "recoil": 1.5,
+      "shake": 2,
+      "shootSound": "pew",
+      "drag": 0.02,
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 40,
+        "speed": 5,
+        "hitSize": 3,
+        "width": 4,
+        "length": 8,
+        "lifetime": 32,
+        "shoot": {
+        "type": "ShootBarrel",
+        "shots": 3,
+        "barrels": 3,
+         "barrels": [
+           6, 0, 0,
+           -6, 0, 0,
+           0, 6, 0
+           ]
+        },
+        "collidesAir": false,
+        "absorbable": false,
+        "inaccuracy": 4,
+        "shootCone": 8,
         "buildingDamageMultiplier": 0.15
       }
     }
