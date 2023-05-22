@@ -3,7 +3,7 @@
   "displayName": "s2p",
   "author": "NemesisTheory",
   "description": "A work-in-progress JSON mod that I am actually trying to put effort in. \n\nWarning: Unfinished content, unfinished planet, unfinished sprites.",
-  "version": "1.0",
+  "version": "0.2",
   "minGameVersion": "140",
   "hidden": "false"
 }
