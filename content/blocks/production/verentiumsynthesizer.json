@@ -12,7 +12,7 @@
   "hasLiquids": false,
   "hasPower": true,
   "craftTime": 126,
-  "craftEffect": "smeltSmoke",
+  "craftEffect": "smeltsmoke",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
