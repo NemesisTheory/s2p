@@ -48,7 +48,7 @@
         "absorbable": true,
         "pierce": true,
         "pierceCap": 4,
-        "buildingDamageMultiplier": 0.09
+        "buildingDamageMultiplier": 0.01
       }
     },
     {
@@ -83,7 +83,7 @@
         "absorbable": false,
         "inaccuracy": 4,
         "shootCone": 8,
-        "buildingDamageMultiplier": 0.1
+        "buildingDamageMultiplier": 0.01
       }
     }
   ]
