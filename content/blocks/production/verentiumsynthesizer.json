@@ -1,0 +1,58 @@
+{
+  "type": "GenericCrafter",
+  "name": "verentiumsynthesizer",
+  "localizedName": "Verentium Synthesizer",
+  "description": ".",
+  "details": ".",
+  "health": 350,
+  "size": 2,
+  "itemCapacity": 15,
+  "category": "crafting",
+  "hasItems": true,
+  "hasLiquids": false,
+  "hasPower": true,
+  "craftTime": 126,
+  "craftEffect": "smeltSmoke",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawArcSmelt"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "warmupSpeed": 0.21,
+   "requirements": [
+    "copper/300",
+    "lead/45",
+    "titanium/80",
+    "graphite/120",
+    "silicon/85",
+    "thorium/75",
+    "plastanium/15"
+     ],
+  "consumes": {
+    "power": 7.8,
+    "items": [
+      {
+        "item": "silicon",
+        "amount": 2
+      },
+      {
+        "item": "thorium",
+        "amount": 3
+      },
+      {
+        "item": "plastanium",
+        "amount": 1
+      }
+    ]
+  },
+  "outputItem": {
+    "item": "verentium",
+    "amount": 2
+  }
+}
