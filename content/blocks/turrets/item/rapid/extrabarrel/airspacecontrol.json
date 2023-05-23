@@ -1,12 +1,12 @@
 {
   "name": "airspacecontrol",
   "localizedName": "Airspace Control",
-  "description": ".",
-  "details": "."
+  "description": "Annihilates light air units in a massive radius.",
   "size": 6,
   "health": 850,
   "range": 1000,
   "targetAir": true,
+  "targetGround": false,
   "category": "effect",
   "reload": 640,
   "shoot": {
@@ -98,40 +98,39 @@
 },
   "inaccuracy": 350,
   "shootCone": 350,
-  "recoil": 200,
-  "shake": 20.6,
-  "recoilTime": -50,
+  "recoil": 0,
+  "shake": 1.2,
   "maxAmmo": 60,
   "ammoUseEffect": "casing3",
   "ammoEjectBack": 10,
   "coolantMultiplier": 0.2,
   "displayAmmoMultiplier": true,
-  "rotateSpeed": 60,
+  "rotateSpeed": 360,
   "shootSound": "shootBig",
   "hasPower": true,
   "type": "ItemTurret",
   "requirements": [
-    "copper/450",
-    "lead/210",
+    "copper/1050",
+    "lead/350",
     "graphite/850",
-    "titanium/270",
-    "silicon/340",
-    "metaglass/50",
+    "titanium/550",
+    "silicon/850",
+    "metaglass/150",
     "plastanium/410",
     "verentium/210",
     "draetheus-alloy/150"
   ],
   "consumes": {
+    "power": 18,
     "coolant": {
       "amount": 0.4
-      "power": 18
     }
   },
   "ammoTypes": {
     "scrap": {
       "type": "BasicBulletType",
       "speed": 15,
-      "damage": 88,
+      "damage": 56,
       "ammoMultiplier": 2,
       "hitSize": 8,
       "width": 25,
@@ -194,6 +193,30 @@
       "lightningLength": 4,
       "lightningLengthRand": 1,
       "lightningDamage": 64
+    },
+    "draetheus-alloy": {
+      "type": "BasicBulletType"
+      "speed": 15,
+      "damage": 186,
+      "ammoMultiplier": 1,
+      "hitSize": 8,
+      "width": 25,
+      "height": 35,
+      "shootEffect": "shootBig",
+      "lifetime": 60,
+      "collidesAir": true,
+      "collidesGround": false,
+      "buildingDamageMultiplier": 0,
+      "hitEffect": "colorSparkBig",
+      "knockback": 0.9,
+      "pierce": true,
+      "pierceCap": 7,
+      "pierceBuilding": false,
+      "pierceArmor": true,
+      "fragOnHit": true,
+      "fragBullet": "FlakBulletType",
+      "fragBullets": 4,
+      "hittable": true,
     }
   }
 }
