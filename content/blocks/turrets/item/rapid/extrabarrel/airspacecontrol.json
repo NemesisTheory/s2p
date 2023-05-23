@@ -8,10 +8,10 @@
   "range": 1000,
   "targetAir": true,
   "category": "effect",
-  "reload": 580,
+  "reload": 640,
   "shoot": {
   "type": "ShootBarrel",
-  "shots": 160,
+  "shots": 180,
   "barrels": 80,
 "barrels": [
   2, 8, 5,
@@ -131,7 +131,7 @@
     "scrap": {
       "type": "BasicBulletType",
       "speed": 15,
-      "damage": 28,
+      "damage": 88,
       "ammoMultiplier": 2,
       "hitSize": 8,
       "width": 25,
@@ -152,7 +152,7 @@
     "thorium": {
       "type": "BasicBulletType",
       "speed": 15,
-      "damage": 35,
+      "damage": 125,
       "ammoMultiplier": 1,
       "hitSize": 8,
       "width": 25,
@@ -169,6 +169,31 @@
       "pierceBuilding": false,
       "pierceArmor": true,
       "hittable": true
+    },
+    "surge-alloy": {
+      "type": "BasicBulletType",
+      "speed": 15,
+      "damage": 105,
+      "ammoMultiplier": 1,
+      "hitSize": 8,
+      "width": 25,
+      "height": 35,
+      "shootEffect": "shootBig",
+      "lifetime": 60,
+      "collidesAir": true,
+      "collidesGround": false,
+      "buildingDamageMultiplier": 0,
+      "hitEffect": "colorSparkBig",
+      "knockback": 0.7,
+      "pierce": true,
+      "pierceCap": 2,
+      "pierceBuilding": false,
+      "pierceArmor": true,
+      "hittable": true,
+      "lightning": 4,
+      "lightningLength": 4,
+      "lightningLengthRand": 1,
+      "lightningDamage": 64
     }
   }
 }
