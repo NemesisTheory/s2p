@@ -214,7 +214,6 @@
       "pierceBuilding": false,
       "pierceArmor": true,
       "fragOnHit": true,
-      "fragBullet": "FlakBulletType",
       "fragBullets": 4,
       "hittable": true,
     }
