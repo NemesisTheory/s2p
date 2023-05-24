@@ -22,9 +22,13 @@ Current content _("Balanced" for Serpulo)_:
            "Venerate, Deference",
            "Sovereign"
 
+"Blocks": "Core: Legion",
+          "Airspace Control"
+
 "Units": "Hymn, Anthem, (Serenade), (Symphony), (Euphony)",
          "Portent, (Premonition), Doomsday, (Hereafter), (Damnation)",
-         "Misanthrope, (Naysayer), (Despondent), (Nihilist), (Unbeliever/Fatalist)"
+         "Misanthrope, (Naysayer), (Despondent), (Nihilist), (Unbeliever/Fatalist)",
+         "Contingent"
        
 "Items": "Verentium, Draetheus Alloy, Actium"
 
