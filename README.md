@@ -17,6 +17,7 @@ An experimental mod.
 #
 Current content _("Balanced" for Serpulo)_:
 ###### I still can't decide if the content here deserves to go to Concord to become planet-exclusive tech, or for Concord to be a "3rd" planet.
+###### Names within brackets are *planned* content that's *bound* to be added.
 ```json
 "Turrets": "Broadside",
            "Venerate, Deference",
@@ -27,7 +28,7 @@ Current content _("Balanced" for Serpulo)_:
 
 "Units": "Hymn, Anthem, (Serenade), (Symphony), (Euphony)",
          "Portent, (Premonition), Doomsday, (Hereafter), (Damnation)",
-         "Misanthrope, (Naysayer), (Despondent), (Nihilist), (Unbeliever/Fatalist)",
+         "(Misanthrope), (Naysayer), (Despondent), (Nihilist), (Unbeliever/Fatalist)",
          "Contingent"
        
 "Items": "Verentium, Draetheus Alloy, Actium"
