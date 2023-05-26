@@ -24,7 +24,8 @@ Current content _("Balanced" for Serpulo)_:
            "Sovereign"
 
 "Blocks": "Core: Legion",
-          "Airspace Control"
+          "Airspace Control",
+          "Mass Accelerator"
 
 "Units": "Hymn, Anthem, (Serenade), (Symphony), (Euphony)",
          "Portent, (Premonition), Doomsday, (Hereafter), (Damnation)",
