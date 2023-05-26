@@ -8,8 +8,8 @@
   "hasPower": true,
   "reload": 180,
   "range": 384,
-  "speedBoost": 1.22
-  "speedBoostPhase": 0.08,
+  "speedBoost": 2.22
+  "speedBoostPhase": 0.18,
   "phaseRangeBoost": 16,
   "useTime": 360,
   "itemCapacity": 15,
