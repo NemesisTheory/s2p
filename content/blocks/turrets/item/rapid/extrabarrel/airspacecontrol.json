@@ -110,18 +110,18 @@
   "hasPower": true,
   "type": "ItemTurret",
   "requirements": [
-    "copper/1050",
-    "lead/350",
-    "graphite/850",
-    "titanium/550",
-    "silicon/850",
-    "metaglass/150",
-    "plastanium/410",
+    "copper/2050",
+    "lead/1550",
+    "graphite/1850",
+    "titanium/850",
+    "silicon/1050",
+    "metaglass/450",
+    "plastanium/610",
     "verentium/210",
-    "draetheus-alloy/150"
+    "draetheus-alloy/450"
   ],
   "consumes": {
-    "power": 18,
+    "power": 26,
     "coolant": {
       "amount": 0.4
     }
