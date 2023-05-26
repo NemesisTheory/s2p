@@ -1,0 +1,36 @@
+{
+  "name": "massaccelerator",
+  "localizedName": "Mass Accelerator",
+  "description": "Overdrives blocks in a massive radius.",
+  "health": 880,
+  "size": 3,
+  "hasPower": true,
+  "reload": 180,
+  "range": 384,
+  "speedBoost": 1.22
+  "speedBoostPhase": 0.08,
+  "phaseRangeBoost": 16,
+  "useTime": 360,
+  "itemCapacity": 15,
+  "category": "effect",
+  "consumes": {
+    "power": 15.75
+    "items": {
+      "items": [
+        "phase-fabric/2",
+        "verentium/1"
+  ],
+  "booster": true,
+  "optional": false
+  }
+},
+"requirements": [
+  "lead/350",
+  "titanium/560",
+  "silicon/450",
+  "metaglass/220",
+  "plastanium/80",
+  "surge-alloy/15",
+  "verentium/65"
+  ]
+}
