@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "camberheatsink",
+  "localizedName": "Camber Heatsink",
+  "description": "Uses a large thermal conductor that dissipates the heat from the slag. Mixes the cooled slag with Verentium powder to produce Camber coolant.",
+  "details": "The Camber heatsink contains an internal thermal generator that utilizes some of the dissipated heat to generate a slight amount of power.",
+  "health": 320,
+  "size": 3,
+  "itemCapacity": 10,
+  "liquidCapacity": 240,
+  "category": "crafting",
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "craftTime": 125,
+  "powerProduction": 2.5,
+  "requirements": [
+    "copper/250",
+    "lead/150",
+    "graphite/50",
+    "metaglass/250",
+    "silicon/75",
+    "draetheus-alloy/50"
+  ],
+  "consumes": {
+    "power": 6.4,
+    "items": [
+      {
+        "item": "verentium",
+        "amount": 3
+      }
+    ],
+    "liquids": [
+      {
+        "liquids": "slag",
+        "amount": 1
+      }
+    ]
+  }
+}
