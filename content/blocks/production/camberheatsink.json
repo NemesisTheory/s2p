@@ -9,24 +9,6 @@
   "liquidCapacity": 240,
   "outputsLiquid": true,
   "outputLiquid": "camber-coolant/0.35",
-  "drawer": {
-    "type": "DrawMulti",
-    "drawers": [
-      {
-        "type": "DrawRegion",
-        "suffix": "liquid"
-      },
-      {
-        "type": "DrawLiquidTile",
-        "drawLiquid": "camber-coolant",
-        "suffix": "-liquid",
-        "drawLiquidLight": true
-      },
-      {
-        "type": "DrawDefault"
-      }
-    ]
-  },
   "category": "crafting",
   "hasPower": true,
   "hasItems": true,
