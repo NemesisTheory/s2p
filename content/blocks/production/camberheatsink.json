@@ -14,7 +14,7 @@
     "drawers": [
       {
         "type": "DrawRegion",
-        "suffix": "-bottom"
+        "suffix": "liquid"
       },
       {
         "type": "DrawLiquidTile",
