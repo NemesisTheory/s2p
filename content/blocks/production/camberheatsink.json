@@ -11,25 +11,25 @@
   "outputsLiquid": true,
   "drawer": {
     "type": "DrawMulti",
-    "drawers":
-    {
-      "type": "DrawRegion",
-      "suffix": "-bottom"
-    },
-    {
-      "type": "DrawLiquidTile",
-      "drawLiquid": "slag",
-    },
-    {
-      "type": "DrawLiquidTile,
-      "drawLiquid": "camber-coolant",
-      "drawLiquidLight": true
-    },
-    {
-      "type": "DrawDefault"
-    }
-}
-]
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "slag"
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "camber-coolant",
+        "drawLiquidLight": true
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
   "category": "crafting",
   "hasPower": true,
   "hasItems": true,
@@ -54,7 +54,7 @@
     ],
     "liquids": [
       {
-        "liquids": "slag",
+        "liquid": "slag",
         "amount": 1
       }
     ]
