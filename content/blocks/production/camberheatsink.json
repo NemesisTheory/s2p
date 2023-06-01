@@ -8,7 +8,7 @@
   "itemCapacity": 10,
   "liquidCapacity": 240,
   "outputsLiquid": true,
-  "outputLiquid": "camber-coolant/1",
+  "outputLiquid": "camber-coolant/0.35",
   "drawer": {
     "type": "DrawMulti",
     "drawers": [
@@ -19,6 +19,7 @@
       {
         "type": "DrawLiquidTile",
         "drawLiquid": "camber-coolant",
+        "suffix": "-liquid",
         "drawLiquidLight": true
       },
       {
@@ -50,7 +51,7 @@
     "liquids": [
       {
         "liquid": "slag",
-        "amount": 1
+        "amount": 0.2
       }
     ]
   }
