@@ -28,7 +28,7 @@
       "mirror": false,
       "shake": 1,
       "reload": 280,
-      "recoil": -64,
+      "recoil": 64,
       "rotate": false
       "bullet": {
         "type": "BasicBulletType",
