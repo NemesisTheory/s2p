@@ -49,14 +49,14 @@
       "targetInterval": 15,
       "targetSwitchInterval": 20,
       "rotateSpeed": 2.2,
-      "reload": 8,
+      "reload": 6,
       "recoil": 2,
       "bullet": {
         "type": "BasicBulletType",
         "x": 0,
         "y": 16,
-        "inaccuracy": 4,
-        "shootCone": 9,
+        "inaccuracy": 6,
+        "shootCone": 12,
         "damage": 42,
         "shots": 4,
         "barrels": [
@@ -65,9 +65,9 @@
           1, 1
         ]
         "speed": 10,
-        "width": 8,
-        "length": 14,
-        "hitSize": 4,
+        "width": 10,
+        "length": 16,
+        "hitSize": 6,
         "lifetime": 28,
         "hittable": true,
         "collidesAir": true,
@@ -87,14 +87,14 @@
       "targetInterval": 15,
       "targetSwitchInterval": 20,
       "rotateSpeed": 2.2,
-      "reload": 8,
+      "reload": 6,
       "recoil": 2,
       "bullet": {
         "type": "BasicBulletType",
         "x": 31,
         "y": 16,
-        "inaccuracy": 4,
-        "shootCone": 9,
+        "inaccuracy": 6,
+        "shootCone": 12,
         "damage": 42,
         "shots": 3,
         "barrels": [
@@ -103,9 +103,9 @@
           1, 1
         ]
         "speed": 10,
-        "width": 8,
-        "length": 14,
-        "hitSize": 4,
+        "width": 10,
+        "length": 16,
+        "hitSize": 6,
         "lifetime": 28,
         "hittable": true,
         "collidesAir": true,
