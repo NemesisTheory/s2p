@@ -28,7 +28,7 @@
       "mirror": false,
       "shake": 1,
       "reload": 280,
-      "recoil": 0,
+      "recoil": -64,
       "rotate": false
       "bullet": {
         "type": "BasicBulletType",
@@ -49,8 +49,8 @@
       "targetInterval": 15,
       "targetSwitchInterval": 20,
       "rotateSpeed": 2.2,
-      "reload": 12,
-      "recoil": -64,
+      "reload": 8,
+      "recoil": 2,
       "bullet": {
         "type": "BasicBulletType",
         "x": 0,
@@ -58,6 +58,12 @@
         "inaccuracy": 4,
         "shootCone": 9,
         "damage": 42,
+        "shots": 4,
+        "barrels": [
+          -1, -1,
+          0, 0,
+          1, 1
+        ]
         "speed": 10,
         "width": 8,
         "length": 14,
@@ -81,7 +87,7 @@
       "targetInterval": 15,
       "targetSwitchInterval": 20,
       "rotateSpeed": 2.2,
-      "reload": 12,
+      "reload": 8,
       "recoil": 2,
       "bullet": {
         "type": "BasicBulletType",
@@ -90,6 +96,12 @@
         "inaccuracy": 4,
         "shootCone": 9,
         "damage": 42,
+        "shots": 3,
+        "barrels": [
+          -1, -1,
+          0, 0,
+          1, 1
+        ]
         "speed": 10,
         "width": 8,
         "length": 14,
