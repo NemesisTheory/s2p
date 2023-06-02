@@ -6,7 +6,7 @@
   "hitSize": 32,
   "health": 12580,
   "armor": 12,
-  "speed": 0.35,
+  "speed": 0.65,
   "rotateSpeed": 1.2,
   "range": 144,
   "immunities": [
@@ -29,9 +29,17 @@
       "shake": 1,
       "reload": 280,
       "recoil": 0,
-      "knockback": -48,
       "rotate": false
-    },
+      "bullet": {
+        "type": "BasicBulletType",
+        "damage": 0.1,
+        "speed": 0.01,
+        "lifetime": 0.01,
+        "width": 0.001,
+        "length": 0.0001,
+        "hitSize": 0.0001"
+      },
+    }
     {
       "name": "maybe-we-just-wanna-watch-the-world-burn",
       "controllable": false,
@@ -41,12 +49,14 @@
       "targetInterval": 15,
       "targetSwitchInterval": 20,
       "rotateSpeed": 2.2,
-      "reload": 21,
-      "recoil": 2,
+      "reload": 12,
+      "recoil": -64,
       "bullet": {
         "type": "BasicBulletType",
         "x": 0,
         "y": 16,
+        "inaccuracy": 4,
+        "shootCone": 9,
         "damage": 42,
         "speed": 10,
         "width": 8,
@@ -71,12 +81,14 @@
       "targetInterval": 15,
       "targetSwitchInterval": 20,
       "rotateSpeed": 2.2,
-      "reload": 21,
+      "reload": 12,
       "recoil": 2,
       "bullet": {
         "type": "BasicBulletType",
         "x": 31,
         "y": 16,
+        "inaccuracy": 4,
+        "shootCone": 9,
         "damage": 42,
         "speed": 10,
         "width": 8,
