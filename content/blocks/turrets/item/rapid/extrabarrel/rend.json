@@ -7,6 +7,7 @@
   "range": 320,
   "targetAir": false,
   "targetGround": true,
+  "shootSound": "swish",
   "category": "turret",
   "reload": 310,
   "shoot": {
@@ -102,7 +103,7 @@
       "hitSize": 10,
       "width": 0.1,
       "height": 0.4,
-      "shootEffect": "swish",
+      "shootEffect": "shootBig",
       "lifetime": 8,
       "collidesAir": false,
       "collidesGround": true,
